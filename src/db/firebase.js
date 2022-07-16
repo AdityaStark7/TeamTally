@@ -4,13 +4,13 @@ import "firebase/firestore"
 import "firebase/storage"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB7zTYmhFI7Ygvhf_f1VTHTWAAGN9VlJoI",
-    authDomain: "forms-clone-127b9.firebaseapp.com",
-    projectId: "forms-clone-127b9",
-    storageBucket: "forms-clone-127b9.appspot.com",
-    messagingSenderId: "356296216795",
-    appId: "1:356296216795:web:df779d62a4322f75a43cfe"
-}
+    apiKey: "AIzaSyDAQOgXxnc70YKq2QBvKiqKJmZJl3l1VgE",
+    authDomain: "tally-script.firebaseapp.com",
+    projectId: "tally-script",
+    storageBucket: "tally-script.appspot.com",
+    messagingSenderId: "29575669710",
+    appId: "1:29575669710:web:1b3a324d787ee6be432d9f",
+};
 
 firebase.initializeApp(firebaseConfig)
 
