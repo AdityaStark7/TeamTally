@@ -40,7 +40,7 @@ function Forms(){
                             forms.map(form => (
                                 <FormCard key={form.id} form={form} onDelete={onFormDelete} />
                             ))
-                        ) : <h3 className="msg mt-1">You haven't created any forms yet</h3> }
+                        ) : <h3 className="msg mt-1">You haven't created any quizzes yet</h3> }
                     </div>
                 )
             }
