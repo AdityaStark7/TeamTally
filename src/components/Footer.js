@@ -12,13 +12,6 @@ function Footer(){
                 <p className="li">Github</p>
                 <p className="li">Netlify</p>
             </div>
-            <div>
-                <p className="title">Find me on</p>
-                <a href="https://github.com/0shuvo0" className="li">Github</a>
-                <a href="https://www.fiverr.com/mdshuv0" className="li">Fiverr</a>
-                <a href="https://www.upwork.com/freelancers/~01ddb0ba68d7867b5d" className="li">Upwork</a>
-                <a href="https://www.linkedin.com/in/md-shuvo-58414b1ba/" className="li">LinkedIn</a>
-            </div>
         </div>
     )
 }
