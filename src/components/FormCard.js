@@ -26,9 +26,9 @@ function FormCard({ form, onDelete }){
             </h2>
             <a href={`${window.location.origin}/fill/${form.id}`} rel="noreferrer" className="link mb-1" target="_blank">{`${window.location.origin}/fill/${form.id}`}</a>
             <p className="card-nav">
-                <span className="nav-item" onClick={() => setPreview(true)}>preview</span>
-                <Link to={"/submissions/" + form.id} className="nav-item">submissions</Link>
-                <span className="nav-item" onClick={handleDelete}>{ loading ? <span className="spinner red"></span> : <span>delete</span>}</span>
+                <span className="nav-item" onClick={() => setPreview(true)}>Preview</span>
+                <Link to={"/submissions/" + form.id} className="nav-item">Submissions & Leaderboard</Link>
+                <span className="nav-item" onClick={handleDelete}>{ loading ? <span className="spinner red"></span> : <span>Delete</span>}</span>
             </p>
             {preview && (
                 <div className="modal">
