@@ -2,7 +2,7 @@ function Footer(){
     return (
         <div className="footer container">
             <div>
-                <a href="/" className="title mr-1">Formable</a>
+                <a href="/" className="title mr-1">KIWIZ</a>
                 <span>&copy; {new Date().getFullYear()}</span>
             </div>
             <div>
